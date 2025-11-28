@@ -1,0 +1,192 @@
+* 
+{
+  margin: 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+/*with ai assitance on this part but not all*/
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.profile-container
+{
+
+  width: 100%;
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.profile-header
+{
+  margin-bottom : 30px;
+}
+
+#student-name {
+  font-size: 2.5em;
+  color: #333;
+margin-bottom: 10px;
+font-family: Roboto;
+font-weight: bold;
+}
+
+.avatar-wrapper {
+  margin: 20px auto;      
+  width: 150px;
+  height: 150px;
+  border: 5px solid #fb8218;
+  border-radius: 50%;   
+  overflow: hidden;
+}
+
+
+.profile-avatar
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.course-year
+{
+  color : #555;
+  font-size : 1.1em;
+  margin-bottom : 25px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+#theme-button
+{
+padding: 10px;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+#theme-button:hover{
+  background-color: rgb(242, 133, 79);
+}
+
+.separator-container {
+  width: 100%;
+  max-width: 600px;
+  height: 2px;
+  background-color: #ddd;
+  margin: 30px auto;
+  margin-right: 0;
+}
+
+
+
+.Certifications{
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.Projects
+{
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.certification-list {
+  list-style: none;
+  margin-left: 0px;     
+  padding-left: 0px;    
+  margin-top: 0;          
+  font-size: 1rem;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+
+.project-list {
+  list-style: none;
+  margin-left: 0px;     
+  padding-left: 0px;    
+  margin-top: 0;          
+  font-size: 1rem;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+
+body {
+  background-image: url('background.jpg'); 
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+/*with ai assitance on this part just used a reference*/
+@media (max-width: 600px) {
+  #student-name {
+    font-size: 1.8em;
+  }
+  
+  .course-year {
+    font-size: 1em;
+  }
+
+  .avatar-wrapper {
+    width: 120px;
+    height: 120px;
+  }
+
+  @media (max-width: 600px) {
+    .profile-container {
+      padding: 15px 10px; 
+    }
+  }
+
+  .separator-container {
+    max-width: 100%;
+  }
+}
+
+
+
+
+body.dark-mode {
+  color: white;
+  background-image: url('black.avif');
+}
+
+body.dark-mode .profile-container {
+  background-color: rgba(40, 40, 40, 0.85);
+  backdrop-filter: blur(6px);
+  color: white;
+}
+
+body.dark-mode h1,
+body.dark-mode p,
+body.dark-mode li {
+  color: white;
+}
+
+body.dark-mode .separator-container {
+  background-color: #777;
+}
+/*and it also ends with the ai use*/
